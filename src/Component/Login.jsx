@@ -32,7 +32,7 @@ const Login = () => {
                     <div className={`${faceScan ? 'hidden': '' } ${fingerScan ? 'hidden': ''}`}>
                         <span className='flex justify-center'>
                             <img src={drop} className='w-[1.9rem] mr-2' />
-                            <h1 className='font-primaryRegula text-2xl font-semibold text'>BlueTick</h1>
+                            <h1 className='font-primaryRegula text-2xl font-semibold text'>Bluedrop</h1>
                         </span>
                         <span className='p-5 mt-10 flex justify-between '>
                             <button className='w-full backB m-1 p-2 rounded text-white font-primaryRegula'>Login</button>
@@ -54,6 +54,10 @@ const Login = () => {
                             <img src={grayfacescan} className='w-7 m-2 cursor-pointer'onClick={handleFaceScan} />
                             <img src={grayfingerscan} className='w-7 m-2 cursor-pointer' onClick={handleFingerScan} />
                         </div>
+                        <Link to='/Dashboard' className=' mt-4'>
+                         <button className='w-full p-2 backB rounded-xl text-white'>Sign Up</button>
+
+                         </Link >
                     </div>
 
                     <div className={`${faceScan? '': 'hidden'} ${fingerScan ? 'hidden':''} flex flex-col items-center justify-center`}>
@@ -93,10 +97,7 @@ const Login = () => {
                             <img src={fingerscan} className='w-7 m-2 cursor-pointer' />
                         </div>
                     </div>
-                    <Link to='/Dashboard' className=' mt-4'>
-                         <button className='w-full p-2 backB rounded-xl text-white'>Sign Up</button>
-
-                    </Link >
+                  
 
             </div>
             

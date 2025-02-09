@@ -3,8 +3,29 @@ body{
 }
 
 .backB{
-  background-color: #5f63dd;
+  background-color: #9195fe;
 }
 .text{
-  color: #5f63dd;
+  color:#7579ee;
+}
+.shadowinset{
+  box-shadow: inset 2px 1px 4cqw #9195fe;
+}
+.shadowinsety{
+  box-shadow: inset 2px 1px 4cqw  #4b4ea1;
+}
+.shadowinsett{
+  box-shadow: inset 2px 1px 4cqw  #c1c1c1;
+}
+.shad{
+  box-shadow: .2rem  9px 18px rgba(233, 233, 233, 0.5);
+}
+.shadowD{
+  box-shadow: .2rem  2px 18px  rgba(113, 111, 111, 0.36)
+}
+.mapshadow{
+  box-shadow: .2rem  1px 32px  rgba(0, 0, 0, 0.36)
+}
+.sidebarShadow{
+  box-shadow: .2rem  9px 22px  rgba(13, 56, 82, 0.79)
 }
